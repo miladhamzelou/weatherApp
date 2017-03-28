@@ -12,12 +12,17 @@
   <dd>Shows temperature - current temp for the current day, and only 1pm forecast for rest 4 days</dd>
   <dd>Shows day of the weak</dd>
   <dd>Shows city of the forecast</dd>
+Using react-boilerplate
+  https://github.com/react-boilerplate/react-boilerplate
 </dl>
 
 ## Quick start
 
 ## Processes
 
+#### SETUP
+
+Before start 'npm start' please do npm i
 
 ### Development
 
