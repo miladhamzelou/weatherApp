@@ -5,6 +5,12 @@
 
 <br />
 
+
+## Demo version
+Visual testing only on iPhone6s
+Please ensure you check it on mobile || RWD.Chrome.Iphone6 with touch events on
+<a href="http://us3r.io:3000">link</a>
+
 ## Features
 
 <dl>
@@ -14,6 +20,8 @@
   <dd>Shows city of the forecast</dd>
 Using react-boilerplate
   https://github.com/react-boilerplate/react-boilerplate
+Using react-swipe
+  https://github.com/voronianski/react-swipe
 </dl>
 
 ## Quick start
@@ -117,8 +125,3 @@ about the bundle size.
 ```Shell
 npm run lint
 ```
-
-
-## Demo version
-
-<a href="http://us3r.io/weatherApp">link</a>
