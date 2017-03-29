@@ -5,11 +5,11 @@
 
 <br />
 
-
 ## Demo version
 Visual testing only on iPhone6s
 Please ensure you check it on mobile || RWD.Chrome.Iphone6 with touch events on
 <a href="http://us3r.io:3000">link</a>
+
 
 ## Features
 
@@ -18,10 +18,28 @@ Please ensure you check it on mobile || RWD.Chrome.Iphone6 with touch events on
   <dd>Shows temperature - current temp for the current day, and only 1pm forecast for rest 4 days</dd>
   <dd>Shows day of the weak</dd>
   <dd>Shows city of the forecast</dd>
+  <dd>Using simple nodejs proxy to call OpenWeather API to work with iOS (ssl required)</dd>
+
 Using react-boilerplate
   https://github.com/react-boilerplate/react-boilerplate
 Using react-swipe
   https://github.com/voronianski/react-swipe
+</dl>
+
+## Todo
+
+<dl>
+  <dt>Bugs & corrections</dt>
+  <dd>#functional - Accuracy of picked forecast chunk for a day needs to be handled correctly (for default views maybe avg of temps) </dd>
+  <dd>#functional - buttons with next/back to swipe day</dd>
+  <dd>#functional - desktop support</dd>
+  <dd>#functional - New components presenting the API data</dd>
+  <dt>Further Development</dt>
+  <dd>#solution - Proper test coverage</dd>
+  <dd>#solution - Server Side Cache for API calls</dd>
+  <dd>#solution - offline/service worker</dd>
+  <dd>#solution - removing some libs</dd>
+  <dd>#solution - SwipContainer refactoring (it should not produce the rendered data, but passing it to dumb component)</dd>
 </dl>
 
 ## Quick start
@@ -30,7 +48,9 @@ Using react-swipe
 
 #### SETUP
 
+```Shell
 Before start 'npm start' please do npm i
+```
 
 ### Development
 
