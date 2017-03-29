@@ -38,7 +38,6 @@ export class SwipContainer extends React.PureComponent { // eslint-disable-line 
   getDay = (date) => {
     const d = date.replace(/\s/, 'T');
     const day = new Date(d).getDay();
-    console.log(day,d,'day,d');
     return days[day];
   };
 
