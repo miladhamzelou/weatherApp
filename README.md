@@ -29,17 +29,17 @@ Using react-swipe
 ## Todo
 
 <dl>
-  <dt>Bugs & corrections</dt>
-  <dd>#functional - Accuracy of picked forecast chunk for a day needs to be handled correctly (for default views maybe avg of temps) </dd>
-  <dd>#functional - buttons with next/back to swipe day</dd>
-  <dd>#functional - desktop support</dd>
-  <dd>#functional - New components presenting the API data</dd>
+  <dt>#functional & Bugs & corrections</dt>
+  <dd>Accuracy of picked forecast chunk for a day needs to be handled correctly (for default views maybe avg of temps) </dd>
+  <dd>Buttons with next/back to swipe day</dd>
+  <dd>Desktop support</dd>
+  <dd>New components presenting the API data</dd>
   <dt>Further Development</dt>
-  <dd>#solution - Proper test coverage</dd>
-  <dd>#solution - Server Side Cache for API calls</dd>
-  <dd>#solution - offline/service worker</dd>
-  <dd>#solution - removing some libs</dd>
-  <dd>#solution - SwipContainer refactoring (it should not produce the rendered data, but passing it to dumb component)</dd>
+  <dd> - Proper test coverage</dd>
+  <dd>Server Side Cache for API calls</dd>
+  <dd>Offline/service worker & https for www server</dd>
+  <dd>Removing some libs</dd>
+  <dd>SwipContainer refactoring (it should not produce the rendered data, but passing it to dumb component)</dd>
 </dl>
 
 ## Quick start

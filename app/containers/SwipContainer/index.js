@@ -13,13 +13,13 @@ import { makeSelectForecasts, makeSelectLoading, makeSelectError } from 'contain
 import { loadForecast } from '../App/actions';
 
 const days = {
+  0: 'Sunday',
   1: 'Monday',
   2: 'Tuesday',
   3: 'Wednesday',
   4: 'Thursday',
   5: 'Friday',
   6: 'Saturday',
-  7: 'Sunday',
 };
 
 const Degrees = styled.div`
@@ -38,6 +38,7 @@ export class SwipContainer extends React.PureComponent { // eslint-disable-line 
   getDay = (date) => {
     const d = date.replace(/\s/, 'T');
     const day = new Date(d).getDay();
+    console.log(day,d,'day,d');
     return days[day];
   };
 
